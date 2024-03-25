@@ -1,4 +1,4 @@
-package com.example.tmdb.presentation.di
+package com.example.tmdb.presentation.di.core
 
 import android.content.Context
 import androidx.room.Room

@@ -1,4 +1,4 @@
-package com.example.tmdb.presentation.di
+package com.example.tmdb.presentation.di.core
 
 import com.example.tmdb.data.repository.movie.Artist.ArtistCachedDataSource
 import com.example.tmdb.data.repository.movie.Artist.ArtistCachedDataSourceImpl

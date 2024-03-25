@@ -4,10 +4,11 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.liveData
 import com.example.tmdb.data.artist.Artist
 import com.example.tmdb.domain.useCases.GetArtistUseCase
+import com.example.tmdb.domain.useCases.UpdateArtistUseCase
 
 class ArtistViewModel(
     private val getArtistUseCase: GetArtistUseCase,
-    private val updateArtistUseCase: GetArtistUseCase
+    private val updateArtistUseCase: UpdateArtistUseCase
 ):ViewModel() {
 
     fun getArtist() = liveData<List<Artist>?> {
